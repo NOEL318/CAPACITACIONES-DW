@@ -1,0 +1,89 @@
+.wallpaper{
+    background-image: url('A.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 10% 20%;
+    background-color: #cddafd;
+}
+table, th, td{
+    border-color: aqua;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+th, td{
+border-style: outset ;
+}
+.ifm{
+    border: hidden;
+}
+.parrafo{        /* top   right  bottom  left*/
+    border-style: solid dashed ridge double;
+    border-width: 1cm;
+    /*border-color: blueviolet #ee0000 #0000ee aqua;*/
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: #000000;
+
+}
+
+.parrafo2{
+    /*border-left: 10px #ee0000 solid;*/
+    border: 8px solid #571089;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 35px;
+}
+.parrafo3{
+    /*margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-bottom: 150px;
+    */
+    /*segunda forma*/
+    /*margin: 100px;*/
+    /*tercera forma*/
+    /*      top  right bottom left*/
+    /*margin: 25px 50px 75px 120px;*/
+    width: 500px;
+    margin: auto;
+    border: 5px solid #003049;
+    margin-left: inherit
+    
+}
+.modelo{
+    width: 400px;
+    border: 1cm solid #bfd200;
+    padding: 60px;
+    margin: auto;
+}
+.chocoimagen{
+    position: relative;
+}
+.container{
+    position: relative;
+}
+.overtext{
+   position: absolute;
+   top: 50%;
+   width: 20%;
+   text-align: center;
+   font-size: 15px;
+   color: #bfd200;
+   background-color: #000000;
+}
+.cuadrado{
+    height: 5cm;
+    background-color:#bfd200;
+    width: 5cm;
+    position: absolute;
+    z-index: b;
+}
+.rectangulo{
+    height: 7cm;
+    width: 7cm;
+    position: relative;
+    background-color: #571089;
+    z-index: a;
+}
